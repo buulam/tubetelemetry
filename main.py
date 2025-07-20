@@ -30,7 +30,7 @@ async def new_token():
         token.write(creds.to_json())
     return {"token": creds.token}
 
-@app.get("/google-profile")
+@app.get("/tube-stats")
 async def get_google_profile():
     creds = Credentials.from_authorized_user_file('.token.json')
     access_token = creds.token
