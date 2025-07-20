@@ -31,7 +31,7 @@ async def new_token():
     return {"token": creds.token}
 
 @app.get("/tube-stats")
-async def get_google_profile():
+async def get_tube_stats():
     creds = Credentials.from_authorized_user_file('.token.json')
     access_token = creds.token
     headers = {
