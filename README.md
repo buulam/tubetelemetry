@@ -11,3 +11,7 @@ VIEWS=https://youtubeanalytics.googleapis.com/v2/reports?endDate=2025-07-31&filt
 SCOPES=https://www.googleapis.com/auth/yt-analytics.readonly
 VIDEO=this is where you put the video ID (appened on video URL's after v=)
 ```
+
+Configuring OAuth took a bit of time. While this article doesn't step by step apply, it does teach you enough to be able to apply the elements towards this app.
+
+[How to access Google APIs using OAuth in Postman](https://blog.postman.com/how-to-access-google-apis-using-oauth-in-postman/)
